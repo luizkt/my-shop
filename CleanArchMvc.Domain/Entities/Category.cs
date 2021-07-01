@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using CleanArchMvc.Domain.Validation;
 
-namespace CleanArchMvc.Domain.Entities 
+namespace CleanArchMvc.Domain.Entities
 {
     public sealed class Category : Entity
     {
