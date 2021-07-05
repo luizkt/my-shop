@@ -18,7 +18,7 @@ namespace CleanArchMvc.Infra.Data.Repositories
 
         public async Task<IEnumerable<Product>> GetProductsAsync()
         {
-            return await _productContext.Products.toListAsync();
+            return await _productContext.Products.ToListAsync();
         }
 
         public async Task<Product> GetByIdAsync(int? id)
