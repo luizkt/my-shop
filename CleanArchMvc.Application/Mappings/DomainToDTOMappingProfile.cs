@@ -1,6 +1,7 @@
 using AutoMapper;
 using CleanArchMvc.Domain.Entities;
 using CleanArchMvc.Application.DTOs;
+using CleanArchMvc.Application.Products.Queries;
 
 namespace CleanArchMvc.Application.Mappings
 {
@@ -10,6 +11,8 @@ namespace CleanArchMvc.Application.Mappings
         {
             CreateMap<Category, CategoryDTO>().ReverseMap();
             CreateMap<Product, ProductDTO>().ReverseMap();
+
+            // CreateMap<GetProductByIdQuery, Product>().ReverseMap();
          }
     }
 }
